@@ -1,10 +1,10 @@
 {
-  "name": "natours",
+  "name": "1kevinson-v2",
   "version": "1.0.0",
-  "description": "Landing page for natours",
+  "description": "Landing page for Kevin Portfolio",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all --parallel devserver auto-build:css watch:css",
+    "start": "npm-run-all --parallel devserver auto-build:css",
     "devserver": "live-server",
     "watch:css": "node-sass public/build/css/style.css -w",
     "concat:css": "concat -o assets/css/main.css assets/css/all-css/_animation.css assets/css/all-css/_global.css assets/css/all-css/_layouts.css assets/css/all-css/_components.css assets/css/all-css/_pages.css ",
