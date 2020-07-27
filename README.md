@@ -1,4 +1,4 @@
-Welcome in this starter pack for building responsives app from scrath with bootstrap 5 framework
+Welcome in this starter pack for building responsives app from scrath with Fomantic
 
 # Fomantic (fork of Semantic)
 
