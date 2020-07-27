@@ -5,17 +5,3 @@
   font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-  font-family: "helvetica";
-  src: url("../../../assets/fonts/helvetica-neue-9/Helvetica65Medium_22443.woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "crystal-hand";
-  src: url("../../../assets/fonts/handwritten-crystal/Handwritten_Crystal_v2.woff");
-  font-weight: normal;
-  font-style: normal;
-}
