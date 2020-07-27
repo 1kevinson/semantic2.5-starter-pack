@@ -7,7 +7,7 @@
     "start": "npm-run-all --parallel devserver auto-build:css",
     "devserver": "live-server",
     "watch:css": "node-sass public/build/css/style.css -w",
-    "concat:css": "concat -o assets/css/main.css assets/css/all-css/_animation.css assets/css/all-css/_global.css assets/css/all-css/_layouts.css assets/css/all-css/_components.css assets/css/all-css/_pages.css ",
+    "concat:css": "concat -o assets/css/main.css assets/css/all-css/_animation.css assets/css/all-css/_global.css assets/css/all-css/_media_queries.css assets/css/all-css/_layouts.css assets/css/all-css/_components.css assets/css/all-css/_pages.css ",
     "compress:css": "node-sass assets/css/main.css public/build/css/style.css --output-style compressed",
     "build:css": "npm-run-all concat:css compress:css",
     "auto-build:css": "watch 'npm run build:css' assets/css/all-css"
