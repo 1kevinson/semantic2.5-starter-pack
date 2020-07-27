@@ -1,7 +1,7 @@
 {
-  "name": "1kevinson-v2",
+  "name": "bootstrap5-starterpack",
   "version": "1.0.0",
-  "description": "Landing page for Kevin Portfolio",
+  "description": "Building web apps from scratch",
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all --parallel devserver auto-build:css",
@@ -12,8 +12,8 @@
     "build:css": "npm-run-all concat:css compress:css",
     "auto-build:css": "watch 'npm run build:css' assets/css/all-css"
   },
-  "author": "Arsene",
-  "license": "ISC",
+  "author": "Arsene Kevin",
+  "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.1",
     "@popperjs/core": "^2.3.1",
