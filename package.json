@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap5-starterpack",
+  "name": "semantic-starterpack",
   "version": "1.0.0",
   "description": "Building web apps from scratch",
   "main": "index.js",
@@ -19,6 +19,7 @@
     "@popperjs/core": "^2.3.1",
     "bootstrap": "^5.0.0-alpha1",
     "concat": "^1.0.3",
+    "fomantic-ui": "^2.8.6",
     "gulp": "^4.0.2",
     "jquery": "^3.3.1",
     "live-server": "^1.2.1",
