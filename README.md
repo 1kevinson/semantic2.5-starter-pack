@@ -1,4 +1,4 @@
-Welcome to this starter pack for building responsives app from scrath with bootstrap 5 framework
+Welcome in this starter pack for building responsives app from scrath with bootstrap 5 framework
 
 # Bootstrap 5 
 
