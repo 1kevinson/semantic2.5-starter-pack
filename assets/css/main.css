@@ -35,7 +35,17 @@ body,.btn {
 }
 
 
+/* WELCOME PAGE */
 
+/* 1rem = 16px */
+
+header {
+  padding: 12rem 0 100px;
+}
+
+section {
+  padding: 7rem 0;
+}
 /** @format */
 
 /* BUTTONS */
