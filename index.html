@@ -9,7 +9,7 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Home - 1kevinson</title>
+    <title>Home - Starter</title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="public/build/css/style.css" />
@@ -28,6 +28,65 @@
   </head>
 
   <body>
-
+    <!-- Row can take 16 columns -->
+    <div class="ui equal width grid">
+      <div class="row" style="margin-top: 15rem">
+        <div class="column"></div>
+        <div class="ten wide column"><div class="ui placeholder segment">
+          <div class="ui two column very relaxed stackable grid">
+            <div class="column">
+              <div class="ui form">
+                <div class="field">
+                  <label>Username</label>
+                  <div class="ui left icon input">
+                    <input type="text" placeholder="Username">
+                    <i class="user icon"></i>
+                  </div>
+                  <div class="ui pointing label">
+                    Please enter a value
+                  </div>
+                </div>
+                <div class="field">
+                  <label>Password</label>
+                  <div class="ui left icon input">
+                    <input type="password">
+                    <i class="lock icon"></i>
+                  </div>
+                </div>
+                <div class="ui blue submit button">Login</div>
+              </div>
+            </div>
+            <div class="middle aligned column">
+              <div class="ui cards">
+                <div class="card">
+                  <div class="content">
+                    <img class="right floated mini ui image" src="https://semantic-ui.com/images/avatar2/large/matthew.png">
+                    <div class="header">
+                      Template by
+                    </div>
+                    <div class="meta">
+                      Arsene Kevin
+                    </div>
+                    <div class="description">
+                      Try navigate around the  <b>pages</b>
+                    </div>
+                  </div>
+                  <div class="extra content">
+                    <div class="ui two buttons">
+                      <a href="public/views/page1.html" class="ui basic green button">Page 1</a>
+                      <a href="public/views/page2.html"class="ui basic yellow button">Page 2</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ui vertical divider">
+            Or
+          </div>
+        </div></div>
+        <div class="column"></div>
+      </div>
+    </div>
   </body>
 </html>
