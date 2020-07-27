@@ -1,8 +1,8 @@
 Welcome in this starter pack for building responsives app from scrath with bootstrap 5 framework
 
-# Bootstrap 5 
+# Fomantic (fork of Semantic)
 
-bootstrap 5 is the next release of [bootstrap](https://github.com/twbs/bootstrap)
+Formantic 2.8 is the latest release of [Fomantic](https://fomantic-ui.com/introduction/getting-started.html)
 framework
 
 ## Installation
@@ -15,13 +15,13 @@ git clone https://github.com/1kevinson/bootstrap5-starter-pack.git
 
 ## Developer Notes
 
-I create a bunch compiled and watched css, feel free to edit for your need,
+I create a bunch of compiled and watched css, feel free to edit to your need,
 
 you can see a preview in the JSON below
 
 ```json
 {
-  "name": "bootstrap5-starterpack",
+  "name": "semantic-starterpack",
   "version": "1.0.0",
   "description": "Building web apps from scratch",
   "main": "index.js",
